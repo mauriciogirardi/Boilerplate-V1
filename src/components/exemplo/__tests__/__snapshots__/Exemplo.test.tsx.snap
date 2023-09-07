@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Exemplo/> should render correctly 1`] = `
+.c0 {
+  background-color: #06092B;
+  color: #FFFFFF;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1.5rem;
+}
+
+.c1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.c3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.c2 {
+  width: 5rem;
+  height: 5rem;
+}
+
+.c4 {
+  margin-top: 3rem;
+  width: min(30rem,100%);
+}
+
+<main
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    <img
+      alt="Image of an atom and boilerplate version 1"
+      class="c2"
+      src="/img/icon-192.png"
+    />
+    Boilerplate V1
+  </h1>
+  <h2
+    class="c3"
+  >
+    TypeScript, ReactJS, NextJS and Styled Components
+  </h2>
+  <img
+    alt="Image of a man sitting in front of a computer"
+    class="c4"
+    src="/img/hero-illustration.svg"
+  />
+</main>
+`;

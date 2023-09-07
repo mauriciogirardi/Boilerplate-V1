@@ -1,7 +1,9 @@
-export default function Home({ title = 'Boilerplate V1' }) {
+import { Exemplo } from 'components/exemplo/Exemplo'
+
+export default function Home() {
   return (
-    <div>
-      <h1>{title}</h1>
-    </div>
+    <>
+      <Exemplo />
+    </>
   )
 }
