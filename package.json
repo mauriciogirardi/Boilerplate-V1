@@ -14,8 +14,9 @@
     "build-storybook": "storybook build"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "npm run lint --fix"
+    "src/**/*": [
+      "yarn lint --fix",
+      "yarn test --findRelatedTests --bail"
     ]
   },
   "dependencies": {
