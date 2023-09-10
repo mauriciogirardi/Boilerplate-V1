@@ -8,8 +8,4 @@ export default {
 
 type Story = StoryObj<typeof Exemplo>
 
-export const Basic: Story = {
-  args: {
-    title: 'Exemplo V1'
-  }
-}
+export const Primary: Story = {}

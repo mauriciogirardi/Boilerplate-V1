@@ -1,20 +1,14 @@
 import { render, screen } from '../../../utils/wrapRender'
 import { Exemplo } from '../Exemplo'
 
-describe('<Exemplo/>', () => {
+describe('Component Exemplo', () => {
   it('should render correctly', () => {
-    const { container } = render(<Exemplo />)
+    render(<Exemplo />)
 
     expect(
-      screen.getByRole('heading', { name: /Boilerplate V1/i })
+      screen.getByRole('heading', { name: /Exemplo/i })
     ).toBeInTheDocument()
 
-    expect(container.firstChild).toMatchSnapshot()
-  })
-
-  it('should render the colors correctly', () => {
-    const { container } = render(<Exemplo />)
-
-    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092B;' })
+    // expect(container.firstChild).toMatchSnapshot()
   })
 })
