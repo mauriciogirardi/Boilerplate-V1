@@ -6,7 +6,7 @@
 </div>
 
 #### Description
-This is a boilerplate created with NextJS 13, Jest, Storybook, PWA, Styled Components.
+This is a boilerplate created with NextJS 13 using Pages Router, Jest, Storybook, PWA, Styled Components.
 
 
 #### Create a component
